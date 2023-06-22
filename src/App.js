@@ -57,6 +57,8 @@ const handleTodoCompletion = (idx) => {
           </div>
         </form>
 
+        <h2 className="text-center">Your To-Do List:</h2>
+
         {todos.map((todo, i) => {
           
           return (
